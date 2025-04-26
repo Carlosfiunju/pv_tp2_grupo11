@@ -1,8 +1,8 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
     const inputTexto = document.getElementById("inputTexto");
     const textoMostrado = document.getElementById("textoMostrado");
   
-    inputTexto.addEventListener("input", function () {
+    inputTexto.addEventListener("input", () => {
       const texto = inputTexto.value;
       textoMostrado.textContent = texto;
   

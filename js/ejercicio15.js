@@ -1,4 +1,4 @@
-function retornarMes() {
+const retornarMes = () => {
     const numero = parseInt(document.getElementById("numeroMes").value);
     const meses = [
       "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
