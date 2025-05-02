@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejercicios con Prompt</title>
+</head>
+<body>
+  <script>
+    const sumarRango = (numeroInicial, numeroFinal) => {
+      let suma = 0;
+      for (let i = numeroInicial; i <= numeroFinal; i++) {
+        suma += i;
+      }
+      return suma;
+    };
+
+    let numinic = parseInt(prompt("Ingresá el número inicial:"));
+    let numfin = parseInt(prompt("Ingresá el número final:"));
+    let resultadoRango = sumarRango(numinic,numfin);
+    alert("La suma del rango es: " + resultadoRango);
+ </script>
+</body>
+</html>
