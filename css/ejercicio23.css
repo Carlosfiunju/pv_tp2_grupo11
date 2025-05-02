@@ -1,0 +1,30 @@
+body {
+    background-color:khaki;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    padding: 10px;
+  }
+  label {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    margin: 10px;
+    padding: 30px;
+    background-color:gray;
+    width: 200px;
+    height: 30px;
+
+  }
+  #resultado {
+    font-size: 25px;
+    padding: 30px;
+    color:black;
+    background-color: gray;
+    width: 400px;
+    text-align: center;
+
+  }
+  h2{
+    color: black;
+    text-align: center;
+  }
+  
