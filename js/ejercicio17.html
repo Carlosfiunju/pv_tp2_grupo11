@@ -2,24 +2,25 @@
 <html>
 <head>
   <title>Ejercicio 17</title>
-</head>
-<body>
   <script>
 
-  const contarLetraA = cadena => {
-      let contador = 0;
-      for (let letra of cadena) {
-        if (letra === 'a' || letra === 'A') {
-          contador++;
+    const contarLetraA = cadena => {
+        let contador = 0;
+        for (let letra of cadena) {
+          if (letra === 'a' || letra === 'A') {
+            contador++;
+          }
         }
-      }
-      return contador;
-    };
-
-    let cadena = prompt("Ingresá una cadena de  texto:");
-    let cantidadA = contarLetraA(cadena);
-    alert("La cantidad de letras 'a' es: " + cantidadA);
-     </script>
+        return contador;
+      };
+  
+      let cadena = prompt("Ingresá una cadena de  texto:");
+      let cantidadA = contarLetraA(cadena);
+      alert("La cantidad de letras 'a' es: " + cantidadA);
+       </script>
+</head>
+<body>
+  
 </body>
 </html>
 
